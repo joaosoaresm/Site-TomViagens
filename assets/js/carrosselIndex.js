@@ -1,4 +1,4 @@
-const images = document.querySelector(".carousel-images");
+const images = document.querySelector(".carrossel-images");
 const total = images.children.length;
 let index = 0;
 let intervalId;
