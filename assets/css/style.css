@@ -1,3 +1,4 @@
+/* === Reset & Base === */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -5,28 +6,22 @@ body {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* === Cabeçalho === */
 header {
   background-color: #0074D9;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
 }
 
-.btn-whatsapp {
-  background-color: #25D366;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
-}
-
-.btn-whatsapp:hover {
-  background-color: #1ebe5d;
-}
 .logo {
   width: 100px;
 }
@@ -43,6 +38,7 @@ h1 {
   display: flex;
   gap: 15px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu a {
@@ -58,9 +54,41 @@ h1 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Botão WhatsApp */
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
 
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
+
+/* === Seções Principais === */
 main {
   padding: 40px 20px;
+}
+
+.inicio,
+.sobre,
+.viagens {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.inicio p,
+.sobre p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .viagens h2 {
@@ -70,37 +98,24 @@ main {
   color: #FFD700;
 }
 
-.inicio, .sobre, .viagens {
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
+/* === Botões e Destaques === */
+.btn-destaque {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-.sobre p, .inicio p {
-  max-width: 800px;
-  margin: auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
+.btn-destaque:hover {
+  background-color: #005fa3;
 }
 
-.viagens .card {
-  margin-bottom: 30px;
-  padding: 20px;
-  border-radius: 15px;
-  background:rgb(12, 12, 12);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.img-viagem {
-  width: 100%;
-  max-height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-
+/* === Cards de Viagens === */
 .card {
   background-color: #111;
   border: 2px solid #FFD700;
@@ -116,17 +131,75 @@ main {
   transform: scale(1.02);
 }
 
+.img-viagem {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Imagem de destaque na home */
+.img-destaque {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* === Rodapé === */
 footer {
   background-color: #000;
   text-align: center;
   padding: 15px;
   font-size: 0.9rem;
 }
-.img-viagem {
+
+.carousel {
+  position: relative;
+  max-width: 700px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
   width: 100%;
-  max-width: 100%;
-  height: 200px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 15px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFD700;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+  transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
 }
