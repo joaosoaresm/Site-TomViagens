@@ -6,23 +6,37 @@ body {
 }
 
 header {
-  background-color: #0074D9; /* azul vibrante */
-  padding: 35px;
-  text-align: center;
+  background-color: #0074D9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
 }
 
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
+}
 .logo {
   width: 100px;
-  position: absolute;
-  left: 20px;
-  top: 10px;
 }
 
 h1 {
+  flex-grow: 1;
+  text-align: center;
   margin: 0;
+  color: #FFD700;
   font-size: 2rem;
-  color: #FFD700; /* amarelo dourado */
 }
 
 main {
