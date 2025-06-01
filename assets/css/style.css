@@ -24,6 +24,8 @@ header {
 
 .logo {
   width: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -32,6 +34,7 @@ h1 {
   margin: 0;
   color: #FFD700;
   font-size: 2rem;
+  min-width: 150px;
 }
 
 .menu {
@@ -43,7 +46,6 @@ h1 {
 
 .menu a {
   color: white;
-  text-decoration: none;
   font-weight: bold;
   padding: 6px 10px;
   border-radius: 6px;
@@ -60,7 +62,6 @@ h1 {
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
-  text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
 }
@@ -92,10 +93,10 @@ main {
 }
 
 .viagens h2 {
-  text-align: center;
   margin-bottom: 30px;
   font-size: 1.8rem;
   color: #FFD700;
+  text-align: center;
 }
 
 /* === Botões e Destaques === */
@@ -106,7 +107,6 @@ main {
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
-  text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
 }
@@ -156,6 +156,7 @@ footer {
   font-size: 0.9rem;
 }
 
+/* === Seção Sobre === */
 .sobre {
   padding: 40px 20px;
   max-width: 1000px;
@@ -175,6 +176,8 @@ footer {
   margin-bottom: 20px;
   color: #eee;
 }
+
+/* === Carrossel === */
 .carrossel {
   position: relative;
   max-width: 700px;
@@ -228,12 +231,6 @@ footer {
   margin-top: 50px;
 }
 
-.carrossel {
-  position: relative;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
 .slides {
   position: relative;
   overflow: hidden;
@@ -276,4 +273,75 @@ footer {
 
 .btn-anterior:hover, .btn-proximo:hover {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* === Responsividade - Media Queries === */
+
+/* Tablets e menores (até 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+
+  .menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .btn-whatsapp {
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 50px;
+  }
+
+  .card {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .carrossel {
+    max-width: 90%;
+  }
+
+  .carrossel-images img {
+    height: 200px;
+  }
+}
+
+/* Celulares (até 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .menu a {
+    font-size: 0.9rem;
+    padding: 5px 8px;
+  }
+
+  .btn-destaque {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .img-viagem {
+    height: 150px;
+  }
+
+  .carrossel-images img {
+    height: 150px;
+  }
 }
