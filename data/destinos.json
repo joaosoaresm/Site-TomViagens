@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "zoologico-sp",
+    "titulo": "Zoológico de São Paulo",
+    "descricao": "Conheça um dos maiores zoológicos da América Latina!",
+    "img": "/img/zoologico.jpg",
+    "data": "10/08/2025",
+    "valor": "R$ 180,00",
+    "destaque": true
+  },
+  {
+    "slug": "hopi-hari",
+    "titulo": "Hopi Hari",
+    "descricao": "A terra da diversão com atrações para toda a família!",
+    "img": "/img/hopihari.jpg",
+    "data": "20/08/2025",
+    "valor": "R$ 299,00",
+    "destaque": false
+  }
+]
