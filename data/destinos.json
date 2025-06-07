@@ -1,4 +1,4 @@
-[
+const data =[
   {
     "slug": "beto-carreiro",
     "titulo": "Beto Carreiro World",
@@ -17,4 +17,17 @@
     "valor": "R$ 219,00",
     "destaque": false
   }
-]
+];
+
+data.forEach((item) => {
+  const card = document.createElement("div");
+
+  const img = document.createElement("img");
+  img.src = item.img;
+  img.alt = item.titulo;
+  img.className = "pacote-img"; // aqui aplicamos o estilo
+
+  // exemplo de uso
+  card.appendChild(img);
+  document.body.appendChild(card);
+});

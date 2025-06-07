@@ -359,3 +359,14 @@ footer {
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: box-shadow 0.3s ease;
 }
+
+
+.pacote-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
