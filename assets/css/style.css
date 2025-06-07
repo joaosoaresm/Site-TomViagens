@@ -345,3 +345,17 @@ footer {
     height: 150px;
   }
 }
+
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.card-link:hover {
+  /* opcional: efeito hover */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: box-shadow 0.3s ease;
+}
