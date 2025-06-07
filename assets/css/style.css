@@ -361,19 +361,69 @@ footer {
   transition: box-shadow 0.3s ease;
 }
 
-#conteudoDestino {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: auto;
+.destino-detalhe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#conteudoDestino h2 {
-  text-align: center;
-  margin-bottom: 10px;
+.destino-detalhe img.img-destino {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-#conteudoDestino p {
-  margin-bottom: 12px;
+.destino-detalhe h2 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px #000;
+  margin-bottom: 15px;
 }
+
+.destino-detalhe p {
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.8;
+}
+
+.destino-detalhe a.btn-whatsapp {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.destino-detalhe a.btn-whatsapp:hover {
+  background-color: #1da851;
+}
+
+@media (max-width: 768px) {
+  .destino-detalhe {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .destino-detalhe img.img-destino {
+    max-width: 100%;
+  }
+
+  .destino-detalhe h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .destino-detalhe p {
+    text-align: center;
+  }
+}
+
