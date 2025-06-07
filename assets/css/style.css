@@ -249,7 +249,8 @@ footer {
   display: block;
 }
 
-.btn-anterior, .btn-proximo {
+.btn-anterior,
+.btn-proximo {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -271,11 +272,12 @@ footer {
   right: 10px;
 }
 
-.btn-anterior:hover, .btn-proximo:hover {
+.btn-anterior:hover,
+.btn-proximo:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* === Responsividade - Media Queries === */
+/* === Responsividade === */
 
 /* Tablets e menores (até 768px) */
 @media (max-width: 768px) {
@@ -346,7 +348,7 @@ footer {
   }
 }
 
-
+/* === Página Detalhe de Destino === */
 .card-link {
   text-decoration: none;
   color: inherit;
@@ -355,8 +357,7 @@ footer {
 }
 
 .card-link:hover {
-  /* opcional: efeito hover */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease;
 }
 
@@ -376,4 +377,3 @@ footer {
 #conteudoDestino p {
   margin-bottom: 12px;
 }
-

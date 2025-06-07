@@ -23,7 +23,7 @@ fetch("/data/destinos.json")
     document.getElementById("conteudoDestino").innerHTML = `
       <section class="destino-detalhe">
         <h2>${destino.titulo}</h2>
-        <img src="${destino.img}" alt="${destino.titulo}" />
+        <img src="${destino.img}" alt="${destino.titulo}" class="img-destino" />
         <p>${destino.descricao}</p>
         <p><strong>Data da Viagem:</strong> ${destino.data}</p>
         <p><strong>Valor:</strong> ${destino.valor}</p>
