@@ -27,7 +27,7 @@ fetch("/data/destinos.json")
         <p>${destino.descricao}</p>
         <p><strong>Data da Viagem:</strong> ${destino.data}</p>
         <p><strong>Valor:</strong> ${destino.valor}</p>
-        <p>Mais informações e detalhes:</p><a href="https://wa.me/5512992185458?text=Olá,%20quero%20informações%20sobre%20a%20viagem%20para%20${encodeURIComponent(destino.titulo)}!" target="_blank" class="btn-whatsapp">Reservar pelo WhatsApp</a>
+        <p>Mais informações e detalhes:<a href="https://wa.me/5512992185458?text=Olá,%20quero%20informações%20sobre%20a%20viagem%20para%20${encodeURIComponent(destino.titulo)}!" target="_blank" class="btn-whatsapp">Reservar pelo WhatsApp</a></p>
       </section>
     `;
   })
