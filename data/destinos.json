@@ -34,6 +34,15 @@
     "data": "10/08/2025",
     "valor": "R$ 156,99",
     "destaque": false
+  },
+  {
+    "slug": "aquario",
+    "titulo": "Aquário e Mercadão - SP",
+    "descricao": "Explore o Aquário e Mercadão em São Paulo, conheça os animais exóticos e desfrute de uma experiência única na terra do vinho.",
+    "img": "/img/aquario.jpg",
+    "data": "27/07/2025",
+    "valor": "R$ 199,99",
+    "destaque": false
   }
 ]
 
