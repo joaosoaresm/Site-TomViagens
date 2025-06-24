@@ -25,6 +25,15 @@
     "data": "17/10/2025",
     "valor": "R$ 549,99",
     "destaque": false
+  },
+  {
+    "slug": "sao-roque",
+    "titulo": "São Roque - Terra do Vinho",
+    "descricao": "Explore a rica cultura vinícola de São Roque, conheça as vinícolas locais e desfrute de uma experiência única na terra do vinho.",
+    "img": "/img/saoroque.jpg",
+    "data": "10/08/2025",
+    "valor": "R$ 156,99",
+    "destaque": false
   }
 ]
 
