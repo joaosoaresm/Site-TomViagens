@@ -4,7 +4,7 @@
     "titulo": "Beto Carreiro World",
     "descricao": "<p>Explore o Beto Carrero World - o maior parque tematico do Brasil!</p><p>Viva momentos inesquecíveis no maior parque temático da América Latina! Localizado em Penha (SC), o Beto Carrero World reúne diversão, adrenalina e fantasia em um só lugar. Curta brinquedos radicais, shows incríveis, zoológico com animais exóticos e áreas temáticas inspiradas em filmes e personagens famosos.</p><p>Perfeito para toda a família, o parque oferece experiências únicas, cenários encantadores e atrações para todas as idades. Venha se divertir e criar memórias especiais!</p>",
     "img": "/img/betocarreiro1.jpg",
-    "data": "10/08/2025",
+    "data": "27/06/2025",
     "valor": "ESGOTADO!",
     "destaque": true
   },
@@ -15,7 +15,7 @@
     "img": "/img/HopiHari.jpg",
     "data": "31/08/2025",
     "valor": "R$ 219,00",
-    "destaque": false
+    "destaque": true
   },
   {
     "slug": "oktoberfest",
