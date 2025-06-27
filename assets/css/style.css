@@ -410,29 +410,16 @@ footer {
 @media (max-width: 768px) {
   .destino-detalhe {
     flex-direction: column;
+    align-items: center !important;
     padding: 20px;
   }
-
-  .destino-detalhe img.img-destino {
-    max-width: 100%;
-  }
-
-  .destino-detalhe h2 {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .destino-detalhe p {
-    text-align: center;
-  }
-
   .destino-detalhe a.btn-whatsapp {
     display: block;
-    width: 100%;
-    box-sizing: border-box;
+    width: 90%;
+    max-width: 350px;
+    margin: 20px auto 0 auto;
     text-align: center;
-    margin-left: 0;
-    margin-right: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -440,6 +427,9 @@ footer {
   .destino-detalhe a.btn-whatsapp {
     font-size: 1rem;
     padding: 14px 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto 0 auto;
   }
 }
 
