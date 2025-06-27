@@ -425,5 +425,21 @@ footer {
   .destino-detalhe p {
     text-align: center;
   }
+
+  .destino-detalhe a.btn-whatsapp {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .destino-detalhe a.btn-whatsapp {
+    font-size: 1rem;
+    padding: 14px 0;
+  }
 }
 
