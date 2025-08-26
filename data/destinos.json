@@ -4,9 +4,9 @@
     "titulo": "Beto Carreiro World",
     "descricao": "<p>Explore o Beto Carrero World - o maior parque tematico do Brasil!</p><p>Viva momentos inesquecíveis no maior parque temático da América Latina! Localizado em Penha (SC), o Beto Carrero World reúne diversão, adrenalina e fantasia em um só lugar. Curta brinquedos radicais, shows incríveis, zoológico com animais exóticos e áreas temáticas inspiradas em filmes e personagens famosos.</p><p>Perfeito para toda a família, o parque oferece experiências únicas, cenários encantadores e atrações para todas as idades. Venha se divertir e criar memórias especiais!</p>",
     "img": "/img/betocarreiro1.jpg",
-    "data": "27/06/2025",
-    "valor": "ESGOTADO!",
-    "destaque": true
+    "data": "19/11/2025 - 22/11/2025",
+    "valor": "R$1.199,99",
+    "destaque": false
   },
   {
     "slug": "hopi-hari",
@@ -36,12 +36,12 @@
     "destaque": false
   },
   {
-    "slug": "aquario",
-    "titulo": "Aquário e Mercadão - SP",
-    "descricao": "Prepare-se para um dia de descobertas e sabores! Começamos no incrível Aquário de São Paulo, o maior do Brasil, com tubarões, pinguins, jacarés e até um setor temático com animais da África, Austrália e Polo Sul! Depois, seguimos para o tradicional Mercadão de SP, famoso pelo sanduíche de mortadela gigante e pastel de bacalhau! Uma mistura de cultura, diversão e muita comida boa.",
-    "img": "/img/aquario.jpg",
-    "data": "27/07/2025",
-    "valor": "R$ 199,99",
+    "slug": "aparecida",
+    "titulo": "Aparecida do Norte- SP",
+    "descricao": "Prepare-se para uma experiência inesquecível em Aparecida! Junte-se a nós em uma jornada de fé e devoção ao maior santuário mariano do Brasil. Durante nossa excursão, você terá a oportunidade de conhecer a grandiosa Basílica de Nossa Senhora Aparecida, visitar a passarela da fé e se conectar com a história e a espiritualidade do local.",
+    "img": "/img/aparecida.jpg",
+    "data": "28/09/2025",
+    "valor": "R$ 75,00",
     "destaque": false
   }
 ]
