@@ -57,7 +57,3 @@ fetch('destinos.json')
     // Inicializa o carrossel DEPOIS que as imagens foram inseridas
     startAutoPlay();
   });
-
-function iniciarCarrossel() {
-  // ... seu código do carrossel aqui ...
-}
